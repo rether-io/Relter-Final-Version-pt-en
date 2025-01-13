@@ -1,0 +1,142 @@
+.use-cases-section {
+      width: 100%;
+      max-width: 1200px;
+      padding: 50px 20px;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+    }
+
+    .section-title {
+      font-size: 3rem;
+      font-weight: 300;
+      margin-bottom: 40px;
+      text-align: center;
+      color: #ddd;
+      max-width: 1200px;
+      padding: 0 20px;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    @media (max-width: 768px) {
+      .cards {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    .card-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 30%;
+    }
+
+    @media (max-width: 768px) {
+      .card-container {
+        width: 90%;
+        margin-bottom: 20px;
+      }
+    }
+
+    .card {
+      background-color: rgba(26, 26, 26, 0.6);
+      border-radius: 15px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #333;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      padding: 0;
+      backdrop-filter: blur(10px);
+      height: auto;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    .card-title-container {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .card-title {
+      font-size: 1.2rem;
+      font-weight: 400;
+      padding: 0 10px;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+      background-color: #333;
+      padding: 8px 15px;
+      border-radius: 20px;
+      display: inline-flex;
+      align-items: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      font-family: 'Inter', sans-serif;
+    }
+
+    .card-title::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 0px;
+      background-color: #00FF94;
+      border-radius: 20px 0 0 20px;
+    }
+
+    .card-title {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      border: 1px solid transparent;
+      transition: border 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card-title:hover {
+      border: 1px solid #fff;
+      box-shadow: 0 0 10px 1px #fff;
+    }
+
+    .chat-container {
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(51, 51, 51, 0.6);
+      padding: 10px;
+      border-radius: 0 0 15px 15px;
+      backdrop-filter: blur(10px);
+    }
+
+    .chat-message {
+      padding: 8px 12px;
+      margin-bottom: 5px;
+      border-radius: 10px;
+      font-size: 0.9rem;
+      word-wrap: break-word;
+    }
+
+    .chat-message.user {
+      background-color: #00FF94;
+      color: #000;
+      align-self: flex-end;
+    }
+
+    .chat-message.bot {
+      background-color: #444;
+      color: #fff;
+      align-self: flex-start;
+    }
