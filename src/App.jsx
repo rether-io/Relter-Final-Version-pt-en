@@ -72,12 +72,14 @@ import React, { useState } from 'react';
           ></div>
           <nav className="top-nav fixed w-full z-50 top-0">
             <div className="container mx-auto max-w-5xl rounded-full bg-zinc-900/50 px-6 py-3 flex justify-between items-center">
-                <div className="logo">
+                <div className="logo flex items-center gap-3">
                     <img 
                         src="https://i.im.ge/2025/01/17/zGVnr0.Untitled-design-1.gif" 
                         alt="Relter Logo" 
-                        className="h-12" // Você pode ajustar o tamanho conforme necessário
+                        className="h-12"
+                        // Você pode ajustar o tamanho conforme necessário
                   />
+                    <span className="text-white text-xl font-light tracking-wider">Relter Network</span>
                 </div>
               <div className="flex items-center">
                 <button onClick={toggleMenu} className="hamburger-menu md:hidden focus:outline-none">
