@@ -4,64 +4,64 @@ import React, { useState } from 'react';
     const faqData = {
       pt: [
         {
-          question: 'O que a Bianca pode fazer pelo meu negócio?',
+          question: 'O que a Sofia pode fazer pelo meu negócio?',
           answer:
-            'A Bianca é uma assistente virtual que automatiza todo seu atendimento no WhatsApp. Ela consegue atender, qualificar leads, agendar reuniões, resolver dúvidas dos clientes e até mesmo realizar vendas - tudo automaticamente. É como ter sua melhor funcionária trabalhando 24 horas por dia, 7 dias por semana, sem nunca perder uma oportunidade.',
+            'A Sofia é uma assistente virtual que automatiza todo seu atendimento no WhatsApp. Ela consegue atender, qualificar leads, agendar reuniões, resolver dúvidas dos clientes e até mesmo realizar vendas - tudo automaticamente. É como ter sua melhor funcionária trabalhando 24 horas por dia, 7 dias por semana, sem nunca perder uma oportunidade.',
         },
         {
           question: 'Quanto tempo leva para implementar?',
-          answer: 'A implementação é super rápida e leva apenas 24 horas. Nossa equipe cuida de todo o processo, desde a configuração inicial até o treinamento da Bianca com as informações do seu negócio. Você não precisa se preocupar com nada técnico - nós fazemos tudo por você.',
+          answer: 'A implementação é super rápida e leva apenas 7 dias. Nossa equipe cuida de todo o processo, desde a configuração inicial até o treinamento da Sofia com as informações do seu negócio. Você não precisa se preocupar com nada técnico - nós fazemos tudo por você.',
         },
         {
-          question: 'Como a Bianca aprende sobre meu negócio?',
+          question: 'Como a Sofia aprende sobre meu negócio?',
           answer:
-            'O processo é simples: coletamos as principais informações sobre seu negócio, produtos, serviços e forma de atendimento através de um briefing descomplicado. A Bianca usa essas informações para criar respostas personalizadas e alinhadas com seu negócio. Ela também aprende e se aperfeiçoa continuamente com cada interação.',
+            'O processo é simples: coletamos as principais informações sobre seu negócio, produtos, serviços e forma de atendimento através de um briefing descomplicado. A Sofia usa essas informações para criar respostas personalizadas e alinhadas com seu negócio. Ela também aprende e se aperfeiçoa continuamente com cada interação.',
         },
         {
-          question: 'É seguro usar a Bianca no meu WhatsApp?',
+          question: 'É seguro usar a Sofia no meu WhatsApp?',
           answer:
             'Totalmente seguro! Utilizamos a API oficial do WhatsApp Business e seguimos todos os protocolos de segurança. Suas conversas e dados são criptografados e protegidos. Além disso, você mantém total controle sobre seu número e pode monitorar todos os atendimentos através de um painel exclusivo.',
         },
         {
           question: 'Preciso ter conhecimento técnico?',
           answer:
-            'Não precisa de nenhum conhecimento técnico! Nossa equipe cuida de toda a parte tecnológica. Você só precisa nos fornecer as informações sobre seu negócio e nós configuramos tudo. A interface é super intuitiva e oferecemos todo o suporte necessário para você aproveitar ao máximo a Bianca.',
+            'Não precisa de nenhum conhecimento técnico! Nossa equipe cuida de toda a parte tecnológica. Você só precisa nos fornecer as informações sobre seu negócio e nós configuramos tudo. A interface é super intuitiva e oferecemos todo o suporte necessário para você aproveitar ao máximo a Sofia.',
         },
         {
           question: 'Qual o investimento necessário?',
           answer:
-            'Oferecemos planos que cabem no bolso e se pagam rapidamente. O investimento inicial é de R$4.000 para implementação e mensalidades a partir de R$1.500. Considerando que a Bianca trabalha 24h por dia, nunca tira férias e pode atender centenas de clientes simultaneamente, o custo-benefício é incomparável com a contratação de funcionários tradicionais.',
+            'Oferecemos planos que cabem no bolso e se pagam rapidamente. O investimento inicial conta com mensalidades a partir de R$1.500. Considerando que a Sofia trabalha 24h por dia, nunca tira férias e pode atender centenas de clientes simultaneamente, o custo-benefício é incomparável com a contratação de funcionários tradicionais.',
         },
       ],
       en: [
         {
-          question: 'What can Bianca do for my business?',
+          question: 'What can Sofia do for my business?',
           answer:
-            'Bianca is a virtual assistant that automates all your customer service on WhatsApp. She can attend, qualify leads, schedule meetings, resolve customer doubts, and even make sales - all automatically. It\'s like having your best employee working 24 hours a day, 7 days a week, without ever missing an opportunity.',
+            'Sofia is a virtual assistant that automates all your customer service on WhatsApp. She can attend, qualify leads, schedule meetings, resolve customer doubts, and even make sales - all automatically. It\'s like having your best employee working 24 hours a day, 7 days a week, without ever missing an opportunity.',
         },
         {
           question: 'How long does it take to implement?',
-          answer: 'Implementation is super fast and takes only 24 hours. Our team takes care of the entire process, from the initial setup to training Bianca with your business information. You don\'t need to worry about anything technical - we do everything for you.',
+          answer: 'Implementation is super fast! After our briefing meeting takes only 7 days to you see your own Sofia live. Our team takes care of the entire process, from the initial setup to training Sofia with your business information. You don\'t need to worry about anything technical - we do everything for you.',
         },
         {
-          question: 'How does Bianca learn about my business?',
+          question: 'How does Sofia learn about my business?',
           answer:
-            'The process is simple: we collect the main information about your business, products, services, and customer service approach through a straightforward briefing. Bianca uses this information to create personalized responses aligned with your business. She also learns and improves continuously with each interaction.',
+            'The process is simple: we collect the main information about your business, products, services, and customer service approach through a straightforward briefing. Sofia uses this information to create personalized responses aligned with your business. She also learns and improves continuously with each interaction.',
         },
         {
-          question: 'Is it safe to use Bianca on my WhatsApp?',
+          question: 'Is it safe to use Sofia on my WhatsApp?',
           answer:
             'Totally safe! We use the official WhatsApp Business API and follow all security protocols. Your conversations and data are encrypted and protected. In addition, you maintain full control over your number and can monitor all calls through an exclusive panel.',
         },
         {
           question: 'Do I need technical knowledge?',
           answer:
-            'You don\'t need any technical knowledge! Our team takes care of all the technical aspects. You just need to provide us with information about your business and we will configure everything. The interface is super intuitive, and we offer all the necessary support for you to make the most of Bianca.',
+            'You don\'t need any technical knowledge! Our team takes care of all the technical aspects. You just need to provide us with information about your business and we will configure everything. The interface is super intuitive, and we offer all the necessary support for you to make the most of Sofia.',
         },
         {
           question: 'What is the necessary investment?',
           answer:
-            'We offer plans that fit your budget and pay for themselves quickly. The initial investment is R$4,000 for implementation and monthly fees starting at R$1,500. Considering that Bianca works 24 hours a day, never takes vacations, and can serve hundreds of customers simultaneously, the cost-benefit is incomparable to hiring traditional employees.',
+            'We offer plans that fit your budget and pay for themselves quickly. The initial investment is only $500 for implementation and monthly fees starting at $350. Considering that Sofia works 24 hours a day, never takes vacations, and can serve hundreds of customers simultaneously, the cost-benefit is incomparable to hiring traditional employees.',
         },
       ],
     };
