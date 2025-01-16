@@ -74,9 +74,9 @@ import React, { useState } from 'react';
             <div className="container mx-auto max-w-5xl rounded-full bg-zinc-900/50 px-6 py-3 flex justify-between items-center">
                 <div className="logo">
                     <img 
-                        src="https://i.im.ge/2025/01/17/zGVVDP.Untitled-design.gif" 
+                        src="https://i.im.ge/2025/01/17/zGVnr0.Untitled-design-1.gif" 
                         alt="Relter Logo" 
-                        className="h-10" // Você pode ajustar o tamanho conforme necessário
+                        className="h-12" // Você pode ajustar o tamanho conforme necessário
                   />
                 </div>
               <div className="flex items-center">
