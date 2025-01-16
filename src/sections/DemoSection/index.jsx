@@ -2,7 +2,7 @@ import React from 'react';
 
     const demoContent = {
       pt: {
-        title: 'Teste A Bianca Agora Mesmo',
+        title: 'Teste Sofia Agora Mesmo',
         description:
           'Converse com ela no WhatsApp e veja pessoalmente como ela pode transformar seu atendimento',
         inputPlaceholder: 'Seu WhatsApp',
@@ -12,7 +12,7 @@ import React from 'react';
         subText3: 'Veja ela funcionando ao vivo',
       },
       en: {
-        title: 'Test Bianca Now',
+        title: 'Test Sofia Now',
         description:
           'Chat with her on WhatsApp and see for yourself how she can transform your customer service',
         inputPlaceholder: 'Your WhatsApp',
