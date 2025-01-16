@@ -72,30 +72,13 @@ import React, { useState } from 'react';
           ></div>
           <nav className="top-nav fixed w-full z-50 top-0">
             <div className="container mx-auto max-w-5xl rounded-full bg-zinc-900/50 px-6 py-3 flex justify-between items-center">
-              <div className="logo">
-                <span className="logo-icon">
-                  <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
-                      fill="#00FF94"
-                    />
-                    <path
-                      d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
-                      fill="black"
-                    />
-                    <path
-                      d="M12 14C13.1046 14 14 13.1046 14 12C14 10.8954 13.1046 10 12 10C10.8954 10 10 10.8954 10 12C10 13.1046 10.8954 14 12 14Z"
-                      fill="white"
-                    />
-                  </svg>
-                </span>
-              </div>
+                <div className="logo">
+                    <img 
+                        src="https://i.im.ge/2025/01/15/zBw5LG.Untitled-design-1.png" 
+                        alt="Relter Logo" 
+                        className="h-8" // Você pode ajustar o tamanho conforme necessário
+                  />
+                </div>
               <div className="flex items-center">
                 <button onClick={toggleMenu} className="hamburger-menu md:hidden focus:outline-none">
                   <svg
