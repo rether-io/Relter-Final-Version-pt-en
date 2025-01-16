@@ -8,35 +8,35 @@ import React, { useState } from 'react';
           label: 'Eficiência',
           title: 'Atendimento Que Não Para De Vender',
           content:
-            'A Bianca atende, qualifica e vende automaticamente, permitindo que sua equipe foque apenas nos casos mais importantes. Diga adeus ao trabalho manual - apenas configure uma vez e veja seu WhatsApp se transformar em uma máquina de vendas 24h por dia.',
+            'A Sofia atende, qualifica e vende automaticamente, permitindo que sua equipe foque apenas nos casos mais importantes. Diga adeus ao trabalho manual - apenas configure uma vez e veja seu WhatsApp se transformar em uma máquina de vendas 24h por dia.',
         },
         {
           id: 'automacao',
           label: 'Automação',
           title: 'Vendas No Piloto Automático',
           content:
-            'Automatize todo o seu processo de vendas, desde o primeiro contato até o fechamento. A Bianca cuida de tudo, garantindo que nenhuma oportunidade seja perdida e que seus clientes recebam o melhor atendimento possível.',
+            'Automatize todo o seu processo de vendas, desde o primeiro contato até o fechamento. A Sofia cuida de tudo, garantindo que nenhuma oportunidade seja perdida e que seus clientes recebam o melhor atendimento possível.',
         },
         {
           id: 'inteligencia',
           label: 'Inteligência',
           title: 'Inteligência Artificial A Seu Favor',
           content:
-            'A Bianca utiliza inteligência artificial para aprender com cada interação, otimizando seu desempenho e oferecendo um atendimento cada vez mais personalizado e eficaz. Tenha uma assistente que evolui com o seu negócio.',
+            'A Sofia utiliza inteligência artificial para aprender com cada interação, otimizando seu desempenho e oferecendo um atendimento cada vez mais personalizado e eficaz. Tenha uma assistente que evolui com o seu negócio.',
         },
         {
           id: 'escalabilidade',
           label: 'Escalabilidade',
           title: 'Cresça Sem Limites',
           content:
-            'A Bianca é capaz de lidar com um grande volume de atendimentos simultaneamente, permitindo que seu negócio cresça sem se preocupar com a capacidade de atendimento. Expanda suas vendas sem aumentar sua equipe.',
+            'A Sofia é capaz de lidar com um grande volume de atendimentos simultaneamente, permitindo que seu negócio cresça sem se preocupar com a capacidade de atendimento. Expanda suas vendas sem aumentar sua equipe.',
         },
         {
           id: 'resultados',
           label: 'Resultados',
           title: 'Resultados Que Você Pode Medir',
           content:
-            'Acompanhe de perto os resultados da Bianca através de relatórios detalhados e métricas precisas. Veja como sua assistente está impulsionando suas vendas e otimize suas estratégias para alcançar resultados ainda melhores.',
+            'Acompanhe de perto os resultados da Sofia através de relatórios detalhados e métricas precisas. Veja como sua assistente está impulsionando suas vendas e otimize suas estratégias para alcançar resultados ainda melhores.',
         },
       ],
       en: [
@@ -45,35 +45,35 @@ import React, { useState } from 'react';
           label: 'Efficiency',
           title: 'Service That Never Stops Selling',
           content:
-            'Bianca automatically attends, qualifies, and sells, allowing your team to focus only on the most important cases. Say goodbye to manual work - just set it up once and watch your WhatsApp turn into a 24/7 sales machine.',
+            'Sofia automatically attends, qualifies, and sells, allowing your team to focus only on the most important cases. Say goodbye to manual work - just set it up once and watch your WhatsApp turn into a 24/7 sales machine.',
         },
         {
           id: 'automation',
           label: 'Automation',
           title: 'Sales On Autopilot',
           content:
-            'Automate your entire sales process, from the first contact to closing. Bianca takes care of everything, ensuring that no opportunity is missed and that your customers receive the best possible service.',
+            'Automate your entire sales process, from the first contact to closing. Sofia takes care of everything, ensuring that no opportunity is missed and that your customers receive the best possible service.',
         },
         {
           id: 'intelligence',
           label: 'Intelligence',
           title: 'Artificial Intelligence In Your Favor',
           content:
-            'Bianca uses artificial intelligence to learn from each interaction, optimizing its performance and offering increasingly personalized and effective service. Have an assistant that evolves with your business.',
+            'Sofia uses artificial intelligence to learn from each interaction, optimizing its performance and offering increasingly personalized and effective service. Have an assistant that evolves with your business.',
         },
         {
           id: 'scalability',
           label: 'Scalability',
           title: 'Grow Without Limits',
           content:
-            'Bianca is able to handle a large volume of calls simultaneously, allowing your business to grow without worrying about service capacity. Expand your sales without increasing your team.',
+            'Sofia is able to handle a large volume of calls simultaneously, allowing your business to grow without worrying about service capacity. Expand your sales without increasing your team.',
         },
         {
           id: 'results',
           label: 'Results',
           title: 'Results You Can Measure',
           content:
-            'Closely monitor Bianca\'s results through detailed reports and precise metrics. See how your assistant is boosting your sales and optimize your strategies to achieve even better results.',
+            'Closely monitor Sofia results through detailed reports and precise metrics. See how your assistant is boosting your sales and optimize your strategies to achieve even better results.',
         },
       ],
     };
