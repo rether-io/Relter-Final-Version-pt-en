@@ -45,7 +45,7 @@ import React, { useState } from 'react';
           titleLine1: 'WhatsApp Que Vende',
           titleLine2: 'Enquanto Você Vive',
           description:
-            'Uma Funcionária Que Nunca Para, Nunca Perde Oportunidades E Vende Como Profissional - Enquanto Você Foca No Que Realmente Importa',
+            'Uma funcionária que nunca para, nunca perde oportunidades e vende como profissional - Enquanto você foca no que realmente importa',
           button1: 'Testar Gratuitamente',
           button2: 'Saiba Mais',
         },
@@ -54,7 +54,7 @@ import React, { useState } from 'react';
           titleLine1: 'WhatsApp That Sells',
           titleLine2: 'While You Live',
           description:
-            'An Employee Who Never Stops, Never Misses Opportunities, And Sells Like A Pro - While You Focus On What Really Matters',
+            'Employee who never stops, never misses opportunities, and sells like a Pro - While you focus on what really matters',
           button1: 'Try For Free',
           button2: 'Learn More',
         },
