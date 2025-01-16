@@ -76,7 +76,7 @@ import React, { useState } from 'react';
                     <img 
                         src="https://i.im.ge/2025/01/15/zBw5LG.Untitled-design-1.png" 
                         alt="Relter Logo" 
-                        className="h-10" // Você pode ajustar o tamanho conforme necessário
+                        className="h-12" // Você pode ajustar o tamanho conforme necessário
                   />
                 </div>
               <div className="flex items-center">
